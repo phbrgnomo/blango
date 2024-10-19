@@ -1,1 +1,126 @@
-[{"model": "blog.comment", "pk": 1, "fields": {"creator": 1, "content": "Cool guy", "content_type": 4, "object_id": 1, "created_at": "2022-07-29T22:42:39.955Z", "modified_at": "2022-07-29T22:42:39.969Z"}}, {"model": "blog.comment", "pk": 2, "fields": {"creator": 1, "content": "xx", "content_type": 7, "object_id": 1, "created_at": "2022-08-09T13:33:56.308Z", "modified_at": "2022-08-09T13:33:56.308Z"}}, {"model": "blog.comment", "pk": 3, "fields": {"creator": 1, "content": "comment2", "content_type": 7, "object_id": 1, "created_at": "2022-08-09T13:34:05.553Z", "modified_at": "2022-08-09T13:34:05.553Z"}}, {"model": "blog.comment", "pk": 4, "fields": {"creator": 1, "content": "lolololo", "content_type": 7, "object_id": 1, "created_at": "2022-09-28T17:59:05.541Z", "modified_at": "2022-09-28T17:59:05.541Z"}}, {"model": "blog.tag", "pk": 1, "fields": {"value": "django"}}, {"model": "blog.tag", "pk": 2, "fields": {"value": "example"}}, {"model": "blog.tag", "pk": 3, "fields": {"value": "second"}}, {"model": "blog.post", "pk": 1, "fields": {"author": 1, "created_at": "2022-07-29T03:12:41.410Z", "modified_at": "2022-07-29T03:16:19.786Z", "published_at": "2022-07-29T03:11:27Z", "title": "Django Unchained", "slug": "django-unchained", "summary": "It have to start somewhere....", "content": "<h2>Django Unchained</h2>\r\n<p>The adventure Begins</p>", "tags": [1, 2]}}, {"model": "blog.post", "pk": 2, "fields": {"author": 1, "created_at": "2022-08-08T19:15:00.829Z", "modified_at": "2022-08-08T19:15:00.829Z", "published_at": "2022-08-08T19:14:10Z", "title": "Post No 2", "slug": "post-no-2", "summary": "this is a second post", "content": "second blog post blah blah blah", "tags": [1, 2, 3]}}, {"model": "blango_auth.user", "pk": 1, "fields": {"password": "argon2$argon2id$v=19$m=102400,t=2,p=8$ZXE1T0JJWWxocWtEeFlYMXg2czcxSg$ZgGM5k5Zz0Ct9mK2krPFvA", "last_login": "2022-09-28T17:37:30.508Z", "is_superuser": true, "username": "phbr", "first_name": "Paulo", "last_name": "Henrique", "email": "phbreng@gmail.com", "is_staff": true, "is_active": true, "date_joined": "2022-07-29T02:22:22Z", "groups": [], "user_permissions": []}}]
+[
+  {
+    "model": "blog.comment",
+    "pk": 1,
+    "fields": {
+      "creator": 1,
+      "content": "Cool guy",
+      "content_type": 4,
+      "object_id": 1,
+      "created_at": "2022-07-29T22:42:39.955Z",
+      "modified_at": "2022-07-29T22:42:39.969Z"
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 2,
+    "fields": {
+      "creator": 1,
+      "content": "xx",
+      "content_type": 7,
+      "object_id": 1,
+      "created_at": "2022-08-09T13:33:56.308Z",
+      "modified_at": "2022-08-09T13:33:56.308Z"
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 3,
+    "fields": {
+      "creator": 1,
+      "content": "comment2",
+      "content_type": 7,
+      "object_id": 1,
+      "created_at": "2022-08-09T13:34:05.553Z",
+      "modified_at": "2022-08-09T13:34:05.553Z"
+    }
+  },
+  {
+    "model": "blog.comment",
+    "pk": 4,
+    "fields": {
+      "creator": 1,
+      "content": "lolololo",
+      "content_type": 7,
+      "object_id": 1,
+      "created_at": "2022-09-28T17:59:05.541Z",
+      "modified_at": "2022-09-28T17:59:05.541Z"
+    }
+  },
+  {
+    "model": "blog.tag",
+    "pk": 1,
+    "fields": {
+      "value": "django"
+    }
+  },
+  {
+    "model": "blog.tag",
+    "pk": 2,
+    "fields": {
+      "value": "example"
+    }
+  },
+  {
+    "model": "blog.tag",
+    "pk": 3,
+    "fields": {
+      "value": "second"
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 1,
+    "fields": {
+      "author": 1,
+      "created_at": "2022-07-29T03:12:41.410Z",
+      "modified_at": "2022-07-29T03:16:19.786Z",
+      "published_at": "2022-07-29T03:11:27Z",
+      "title": "Django Unchained",
+      "slug": "django-unchained",
+      "summary": "It have to start somewhere....",
+      "content": "<h2>Django Unchained</h2>\r\n<p>The adventure Begins</p>",
+      "tags": [
+        1,
+        2
+      ]
+    }
+  },
+  {
+    "model": "blog.post",
+    "pk": 2,
+    "fields": {
+      "author": 1,
+      "created_at": "2022-08-08T19:15:00.829Z",
+      "modified_at": "2022-08-08T19:15:00.829Z",
+      "published_at": "2022-08-08T19:14:10Z",
+      "title": "Post No 2",
+      "slug": "post-no-2",
+      "summary": "this is a second post",
+      "content": "second blog post blah blah blah",
+      "tags": [
+        1,
+        2,
+        3
+      ]
+    }
+  },
+  {
+    "model": "blango_auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "argon2$argon2id$v=19$m=102400,t=2,p=8$ZXE1T0JJWWxocWtEeFlYMXg2czcxSg$ZgGM5k5Zz0Ct9mK2krPFvA",
+      "last_login": "2022-09-28T17:37:30.508Z",
+      "is_superuser": true,
+      "username": "phbr",
+      "first_name": "Paulo",
+      "last_name": "Henrique",
+      "email": "phbreng@gmail.com",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-07-29T02:22:22Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  }
+]
